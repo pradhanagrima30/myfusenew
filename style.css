@@ -3,13 +3,13 @@
     padding:0px;
     background-color: #F9F9F9;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
 }
 .navbar{
     background-color: #001F3F;
     width:100%;
-    height:80px;
+    height:60px;
     padding: 14px 0px;
     display: flex;
     justify-content: center;
@@ -73,12 +73,25 @@ header>div>img{
     position: relative;
     width: 100%;
 }
-.banner img{
+.banner #ban{
+    position: relative;
     width:100%;
     height:auto;
+    /* z-index: 2; */
+}
+.banner #circle_overlay{
+    background-color: transparent;
+    position:absolute;
+    top: 0;
+    left:0;
+    height:200px;
+    width: 200px;
+    opacity:0.4;
+    /* z-index: 4; */
 }
 .banner button{
     position: absolute;
+    font-weight: 550;
     top: 60%;
     left: 13.3%;
     transform: translate(-50%, -50%);
@@ -90,4 +103,132 @@ header>div>img{
     border: none;
     cursor: pointer;
     border-radius: 8px;
+}
+.banner .bento{
+    display: flex; 
+    position: absolute;
+    top: 20%;
+    right:8%;
+    z-index: 12;  
+    width:500px;
+    height:500px; 
+    background-color: transparent;
+    /* float:inline-start; */
+}
+.bento .bentosub1{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width:50%;
+    gap:20px;
+}
+#resume{
+    position:relative;
+    height:220px;
+    width:225px;
+    background-color: #FFE769;
+    color:black;
+    font-weight: 550;
+    border:1px solid rgb(213, 213, 213);
+    border-radius: 15px;
+}
+#resume p{
+    font-size:20px;
+    background-color: transparent;
+    margin:7px 0px 0px 10px;
+}
+#resume img{
+    background-color: transparent;
+    height: 221px;
+    width: 185px;
+    margin: -8px 0px 0px 46px;
+}
+#mentorship{
+    height:220px;
+    width:225px;
+    background-color: #91EBFF;
+    color:black;
+    font-weight: 550;
+    border:1px solid rgb(213, 213, 213);
+    border-radius: 15px;
+}
+#mentorship p{
+    font-size:20px;
+    background-color: transparent;
+    margin:7px 0px 0px 10px;
+}
+#mentorship img{
+    background-color: transparent;
+    height: 221px;
+    width: 185px;
+    margin: 3px 0px 0px 44px;
+}
+
+.bento .bentosub2{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width:50%;
+    gap:20px;
+}
+#jobs{
+    position:relative;
+    height:120px;
+    width:225px;
+    background-color: #FFC05B;
+    color:black;
+    font-weight: 550;
+    border:1px solid rgb(213, 213, 213);
+    border-radius: 15px;
+}
+#jobs p{
+    font-size:20px;
+    background-color: transparent;
+    margin:7px 0px 0px 10px;
+}
+#jobs img{
+    background-color: transparent;
+    height: 131px;
+    width: 264px;
+    margin: -23px 0px 0px 40px 
+}
+#assessment{
+    height:120px;
+    width:225px;
+    background-color: #91F261;
+    color:black;
+    font-weight: 550;
+    border:1px solid rgb(213, 213, 213);
+    border-radius: 15px;
+}
+#assessment p{
+    font-size:20px;
+    background-color: transparent;
+    margin:7px 0px 0px 10px;
+}
+#assessment img{
+    background-color: transparent;
+    height: 218px;
+    width: 107px;
+    margin: -66px 0px 0px 123px;
+}
+#competition{
+    height: 179px;
+    width: 225px; 
+    background-color: #E198FF;
+    color:black;
+    font-weight: 550;
+    border:1px solid rgb(213, 213, 213);
+    border-radius: 15px;
+}
+#competition p{
+    font-size:20px;
+    background-color: transparent;
+    margin:7px 0px 0px 10px;
+}
+#competition img{
+    background-color: transparent;
+    height: 228px;
+    width: 195px;
+    margin: -38px 0px 0px 51px;
 }
