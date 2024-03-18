@@ -92,7 +92,7 @@ header>div>img{
 .banner button{
     position: absolute;
     font-weight: 550;
-    top: 60%;
+    top:  475px;
     left: 13.3%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -107,7 +107,7 @@ header>div>img{
 .banner .bento{
     display: flex; 
     position: absolute;
-    top: 20%;
+    top: 136px;
     right:8%;
     z-index: 12;  
     width:500px;
@@ -231,4 +231,49 @@ header>div>img{
     height: 228px;
     width: 195px;
     margin: -38px 0px 0px 51px;
+}
+
+.trust{
+    margin-top: 40px;
+}
+.trust h2{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-weight: 700;
+    float:left;
+    margin: 72px 124px 25px 75px;
+    font-size:25px;
+    color:#001F3F;
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    align-items: center;
+    background-color: white;
+}
+.company img{
+    height: 8%;
+    width: 12%;
+    margin: 39px 91px 5px 47px;
+}
+
+.trending{
+    text-align: center;
+    margin-top:100px;
+}
+.trending h1{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size:40px;
+    color:#001F3F;
+}
+.trending p{
+    opacity: 60%;
+    font-size: 20px;
+    margin-top: 8px;
 }
