@@ -89,7 +89,7 @@ header>div>img{
     opacity:0.4;
     /* z-index: 4; */
 }
-.banner button{
+button{
     position: absolute;
     font-weight: 550;
     top:  475px;
@@ -278,7 +278,7 @@ header>div>img{
     font-size: 20px;
     margin-top: 8px;
 }
-.trendtext{
+.text{
     margin-bottom: 40px;;
 }
 
@@ -295,6 +295,7 @@ header>div>img{
     display:flex;
     flex-direction: column;
     margin-right:20px;
+    background-color: transparent;
     
 }
 .box #microsoft{
@@ -306,7 +307,7 @@ header>div>img{
 .box h3{
     font-weight: 700;
     font-size: 20px;
-    margin-right:66px;
+    margin-right:56px;
     margin-left:21px;
     align-self: flex-start;
     display:inline;
@@ -328,8 +329,8 @@ header>div>img{
     display: flex;
 }
 .position #location{
-    height: 20px;
-    width: 30px;
+    height: 15px;
+    width: 25px;
     float:inline-start;
     display: inline;
     margin-top:25px;
@@ -337,14 +338,17 @@ header>div>img{
 }
 .position #posi{
     display: inline;
-    margin-top: 20px;
-    margin-left:6px;
+    font-size:12px;
+    margin-top: 24px;
+    margin-left: 1px
 }
 .position #time{
     margin-top: 9px;
     display: inline;
     float: inline-start;
     margin-left: 19px;
+    height:20px;
+    width:20px;
 }
 .box #arrow{
     margin-top:-50px;
@@ -355,10 +359,10 @@ header>div>img{
     width: 40px;
 }
 .position #deadline{
-    margin-top: 9px;
+    margin-top: 10px;
     float: inline-start;
-    font-size: 16px;
-    margin-left: 9px;
+    font-size: 12px;
+    margin-left: 8px;
 }
 
 .box #deloitte{
@@ -394,4 +398,143 @@ header>div>img{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 10px;
+}
+
+/* .bg{
+    width:100%;
+    height:100vh;
+    background-color: rgba(255,215,0,0.4);
+    position: absolute;
+} */
+.comp{
+    width:100%;
+    height:100vh;
+    background-color: rgba(255,215,0,0.4);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(215,215,215,0.5);
+}
+.comp #coder{
+    background-color: transparent;
+    width:300px;
+    height:300px;
+    margin-left:100px;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+}
+#overlay{
+    position:absolute;
+    height: 200px;
+    width: 100px;
+    background-color: transparent;
+    margin-left:400px;
+    opacity: 20%;
+    /* top: 0;
+    left:0; */
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.heading h2{
+    font-size: 30px;
+    background-color: transparent;
+    margin-top:-110px;
+    color:#001F3F;
+    margin-left:46px;
+    font-weight: 700;
+}
+.heading p{
+    margin-left:-290px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: transparent;
+}
+.prize{
+    display: flex;
+    align-items: flex-start;
+}
+.prize img{
+    height: 37px;
+    width: 38px;
+    float:inline-start;
+    display: inline;
+    margin-top:0px;
+    margin-left:-675px;
+    background-color: transparent;
+}
+.prize p{
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    color:black;
+}
+.online{
+    display: flex;
+    /* align-items: flex-end; */
+}
+.online img{
+    height: 37px;
+    width: 38px;
+    float:inline-end;
+    display: inline;
+    margin-top:0px;
+    margin-left:50px;
+    background-color: transparent;
+}
+.online p{
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    color:black;
+}
+.comp #start{
+    top: 290px;
+    left: 35%;
+}
+.resume .text{
+    margin-top:100px;
+}
+.builder{
+    width:100%;
+    height:55vh;
+    margin-top:35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(215,215,215,0.5);
+}
+.builder img{
+    background-color: transparent;
+    width:250px;
+    height:250px;
+    margin-left:100px;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+}
+.builder h2{
+    margin-top: -94px;
+    color: #001F3F;
+    margin-left: 33px;
+    font-size: 30px;
+    background-color: transparent;
+}
+.builder p{
+    margin-left: -240px;
+}
+.builder button{
+    top: 159px;
+    left: 31%;
+}
+.builder #over{
+    display: flex;
+    align-self: flex-end;
+    position:absolute;
+    height: 200px;
+    width: 100px;
+    background-color: transparent;
+    margin-left:1310px;
+    opacity: 20%;
+    /* margin-top:-30px; */
 }
