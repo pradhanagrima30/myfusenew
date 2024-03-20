@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFuse.In</title>
+    <title>MyFuse.in</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@3/dist/css/splide.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <header class="navbar">
-        <img id="logo" src="logo-removebg-preview.png" alt="MyFuse logo">
-        <a href="#">Home</a>
-        <a href="#">Jobs</a>
-        <a href="#">Blogs</a>
-        <a href="#">About Us</a>
-        <div class="container">
-            <img src="circum_search (1).svg" alt="search icon">
-            <input id="search" type="text" name="Search" placeholder="Search">
+        <div class="navbar-container">
+            <img id="logo" src="logo-removebg-preview.png" alt="MyFuse logo">
+            <div class="option">
+                <a href="#">Home</a>
+                <a href="#">Jobs</a>
+                <a href="#">Blogs</a>
+                <a href="#">About Us</a>
+                <div class="container">
+                    <img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/search--v1.png"
+                        alt="search--v1" />
+                    <input id="search" type="text" name="Search" placeholder="Search">
+                </div>
+            </div>
         </div>
+
     </header>
     <div class="banner">
         <img id="ban" src="Group 20.svg" alt="banner">
@@ -55,191 +78,275 @@
             </div>
         </div>
     </div>
-    <div class="trust">
-        <h2>Trusted By:</h2>
-        <div class="company">
-            <img id="tata" src="tata motors.png">
-            <img src="sw.png">
-            <img src="ncr.png">
-            <img src="flipkart.png">
-            <img src="american express.png">
-            <img src="accenture.png">
-            <img src="cisco.png">
-            <img src="dark patterns.png">
-        </div>
-    </div>
-    <div class="trending">
-        <div class="trendtext">
-            <h1>Trending Jobs on MyFuse</h1>
-            <p>Check out what is trending on MyFuse and stay updated.</p>
-        </div>
-        <div class="listing">
-            <div class="box">
-                <img id="microsoft" src="microsoft-logo-02.jpeg">
-                <h3>UX Designer</h3>
-                <img id="bookmark" src="bookmark.svg">
-                <p id="keywords">Figma  •  Problem Solving  •  UI  •   Wireframing and Prototyping</p>
-                <div class="position">
-                    <img id="location" src="location.svg">
-                    <p id="posi">Remote</p>
-                </div>
-                <div class="position">
-                    <img id="time" src="time.svg">
-                    <p id="deadline">Apply by April 19, 2024</p>
-                </div>
-                <img id="arrow" src="arrow.svg">
-            </div>
-            <div class="box">
-                <img id="deloitte" src="deloitte.png">
-                <h3>Data Analyst</h3>
-                <img id="bookmark" src="bookmark.svg">
-                <p id="keywords">SQL  •  Data visualization  •  ML  •   Statistical analysis</p>
-                <div class="position">
-                    <img id="location" src="location.svg">
-                    <p id="posi">Bangalore</p>
-                </div>
-                <div class="position">
-                    <img id="time" src="time.svg">
-                    <p id="deadline">Apply by March 30, 2024</p>
-                </div>
-                <img id="arrow" src="arrow.svg">
-            </div>
-            <div class="box">
-                <img id="airbus" src="airbus.png">
-                <h3>Associate Manager</h3>
-                <img id="bookmark" src="bookmark.svg">
-                <p id="keywords">Leadership • Project Management • Communication • Problem-Solving</p>
-                <div class="position">
-                    <img id="location" src="location.svg">
-                    <p id="posi">Delhi</p>
-                </div>
-                <div class="position">
-                    <img id="time" src="time.svg">
-                    <p id="deadline">Apply by April 2, 2024</p>
-                </div>
-                <img id="arrow" src="arrow.svg">
-            </div>
-            <div class="box">
-                <img id="ae" src="american express1.png">
-                <h3>Software Engineer</h3>
-                <img id="bookmark" src="bookmark.svg">
-                <p id="keywords">Java • Web Development • SQL • Data Structures & Algorithms • AWS</p>
-                <div class="position">
-                    <img id="location" src="location.svg">
-                    <p id="posi">Pune</p>
-                </div>
-                <div class="position">
-                    <img id="time" src="time.svg">
-                    <p id="deadline">Apply by March 31, 2024</p>
-                </div>
-                <img id="arrow" src="arrow.svg">
-            </div>
-            <div class="box">
-                <img id="tm" src="tech mahindra.png">
-                <h3>Backend Developer</h3>
-                <img id="bookmark" src="bookmark.svg">
-                <p id="keywords">Java • MySQL • APIs • Cloud • Web Frameworks • Version Control</p>
-                <div class="position">
-                    <img id="location" src="location.svg">
-                    <p id="posi">Delhi</p>
-                </div>
-                <div class="position">
-                    <img id="time" src="time.svg">
-                    <p id="deadline">Apply by March 31, 2024</p>
-                </div>
-                <img id="arrow" src="arrow.svg">
+    <div class="main-body">
+        <div class="trust">
+            <h2>Trusted By:</h2>
+            <div class="company">
+                <img id="tata" src="tata motors.png">
+                <img src="sw.png">
+                <img src="ncr.png">
+                <img src="flipkart.png">
+                <img src="american express.png">
+                <img src="accenture.png">
+                <img src="cisco.png">
+                <img src="dark patterns.png">
             </div>
         </div>
-    </div>
-    <div class="trending">
-        <div class="text">
-            <h1>Competitions</h1>
-            <p>Upskill and win by participating in the competitions by the companies.</p>
-        </div>
-        <div class="comp">
-                <img id="coder" src="competitons.svg">
-                <img id="overlay" src="circle half.png">
-                <div class="heading">
-                    <h2>Re-imagine MyFuse: Design and Code Competition</h2>
-                    <p>Design your Future, Code your Success</p>
-                </div>
-                <div class="prize">
-                    <img src="trophy.svg">
-                    <p>₹15,000</p>
-                </div>
-                <div class="online">
-                    <img src="location.svg">
-                    <p>Online</p>
-                </div>
-                <button id="start">Register Now</button>
-        </div>   
-    <div class="resume">
-        <div class="text">
-            <h1>AI Resume Builder</h1>
-            <p>Unlock Your Resume's Potential with AI and Get Hired Faster.</p>
-            <div class="builder">
-                <img src="ai resume.svg">
-                <div class="heading">
-                    <h2>Your Perfect Resume is just a Prompt away!</h2>
-                    <p>Get Matched with Your Dream Job.</p>
-                    <button id="start">Get Started</button>
-                </div>
-                <img id="over" src="circle half right.png">
+        <div class="trending">
+            <div class="trendtext">
+                <h1>Trending Jobs on MyFuse</h1>
+                <p>Check out what is trending on MyFuse and stay updated.</p>
             </div>
-        </div>
-    </div>
-    <div class="testimonial">
-        <div class="text">
-            <h1>What People say about MyFuse</h1>
-            <p>Launchpad for Dreams: Hear How MyFuse Helped Others Take Flight.</p>
-            <div class="feedback">
-                <div id="user1">
-                    <img src="user1img.svg">
-                    <div class="detail">
-                        <h3>Rajesh Kumar</h3>
-                        <h5>SWE</h3>
-                        <img id="star" src="staruser1.svg">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img id="microsoft" src="microsoft-logo-02.jpeg">
+                            <h3>UX Designer</h3>
+                            <img id="bookmark" src="bookmark.svg">
+                            <p id="keywords">Figma • Problem Solving • UI • Wireframing and Prototyping</p>
+                            <div class="position">
+                                <img id="location" src="location.svg">
+                                <p id="posi">Remote</p>
+                            </div>
+                            <div class="position">
+                                <img id="time" src="time.svg">
+                                <p id="deadline">Apply by April 19, 2024</p>
+                            </div>
+                            <img id="arrow" src="arrow.svg">
+                        </div>
                     </div>
-                    <p>"With the help of Myfuse, I was able to land my dream job as a software developer. The messaging feature allowed me to connect directly with HR representatives and clarify any doubts had, making the job application process so much easier."</p>
-                </div>
-                <div id="user2">
-                    <img src="user2img.svg">
-                    <div class="detail">
-                        <h3>Sneha Kumari</h3>
-                        <h5>Backend Developer</h3>
-                        <img id="star" src="staruser2.svg">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img id="deloitte" src="deloitte.png" style="object-fit: contain;">
+                            <h3>Data Analyst</h3>
+                            <img id="bookmark" src="bookmark.svg">
+                            <p id="keywords">SQL • Data visualization • ML • Statistical analysis</p>
+                            <div class="position">
+                                <img id="location" src="location.svg">
+                                <p id="posi">Bangalore</p>
+                            </div>
+                            <div class="position">
+                                <img id="time" src="time.svg">
+                                <p id="deadline">Apply by March 30, 2024</p>
+                            </div>
+                            <img id="arrow" src="arrow.svg">
+                        </div>
                     </div>
-                    <p>"As a fresher without much experience, job hunting was overwhelming. Myfuse offered me opportunities that matched my skill set and experience, making it easier for me to start my career in the field of marketing and others."</p>
-                </div>
-                <div id="user3">
-                    <img src="user3img.svg">
-                    <div class="detail">
-                        <h3>Rahul Paul</h3>
-                        <h5>UI/UX Designer</h3>
-                        <img id="star" src="staruser3.svg">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img id="airbus" src="airbus.png">
+                            <h3>Associate Manager</h3>
+                            <img id="bookmark" src="bookmark.svg">
+                            <p id="keywords">Leadership • Project Management • Communication • Problem-Solving</p>
+                            <div class="position">
+                                <img id="location" src="location.svg">
+                                <p id="posi">Delhi</p>
+                            </div>
+                            <div class="position">
+                                <img id="time" src="time.svg">
+                                <p id="deadline">Apply by April 2, 2024</p>
+                            </div>
+                            <img id="arrow" src="arrow.svg">
+                        </div>
                     </div>
-                    <p>"Myfuse offered me a wide range of job opportunities across various industries. I was able to use the messaging feature to communicate with HR of companies directly, making the job application process seamless and hassle-free."</p>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img id="ae" src="american express1.png">
+                            <h3>Software Engineer</h3>
+                            <img id="bookmark" src="bookmark.svg">
+                            <p id="keywords">Java • Web Development • SQL • Data Structures & Algorithms • AWS</p>
+                            <div class="position">
+                                <img id="location" src="location.svg">
+                                <p id="posi">Pune</p>
+                            </div>
+                            <div class="position">
+                                <img id="time" src="time.svg">
+                                <p id="deadline">Apply by March 31, 2024</p>
+                            </div>
+                            <img id="arrow" src="arrow.svg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img id="tm" src="tech mahindra.png">
+                            <h3>Backend Developer</h3>
+                            <img id="bookmark" src="bookmark.svg">
+                            <p id="keywords">Java • MySQL • APIs • Cloud • Web Frameworks • Version Control</p>
+                            <div class="position">
+                                <img id="location" src="location.svg">
+                                <p id="posi">Delhi</p>
+                            </div>
+                            <div class="position">
+                                <img id="time" src="time.svg">
+                                <p id="deadline">Apply by March 31, 2024</p>
+                            </div>
+                            <img id="arrow" src="arrow.svg">
+                        </div>
+                    </div>
+
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
-    </div>
-    <div class="stats">
-        <div class="active">
-            <h3>2500+</h3>
-            <p>Active Students</p>
-        </div>
-        <div class="active">
-            <h3>3000+</h3>
-            <p>Jobs</p>
-        </div>
-        <div class="active">
-            <h3>5500+</h3>
-            <p>Active Application</p>
+        <div class="trending">
+            <div class="text">
+                <h1>Competitions</h1>
+                <p>Upskill and win by participating in the competitions by the companies.</p>
+            </div>
+            <div class="comp">
+                <div class="comp-card">
+                    <img id="coder" src="competitons.svg">
+                    <img id="overlay" src="circle half.png">
+                    <div class="heading">
+                        <h2>Re-imagine MyFuse: Design and Code Competition</h2>
+                        <p>Design your Future, Code your Success</p>
+                        <div class="image">
+                            <div class="trophy">
+                                <img src="trophy.svg">
+                                <p>₹15,000</p>
+                            </div>
+                            <div class="online">
+                                <img src="location.svg">
+                                <p>Online</p>
+                            </div>
+                        </div>
+                        <div id="start">Register Now</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="resume">
+                <div class="text">
+                    <h1>AI Resume Builder</h1>
+                    <p>Unlock Your Resume's Potential with AI and Get Hired Faster.</p>
+                    <div class="builder">
+                        <img src="ai resume.svg">
+                        <div class="heading">
+                            <h2>Your Perfect Resume is just a Prompt away!</h2>
+                            <p>Get Matched with Your Dream Job.</p>
+                            <button id="start">Get Started</button>
+                        </div>
+                        <img id="over" src="circle half right.png">
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="text">
+                    <h1>What People say about MyFuse</h1>
+                    <p>Launchpad for Dreams: Hear How MyFuse Helped Others Take Flight.</p>
+                    <div class="feedback">
+                        <div id="user1">
+                            <img src="user1img.svg">
+                            <div class="detail">
+                                <h3>Rajesh Kumar</h3>
+                                <h5>SWE</h3>
+                                    <img id="star" src="staruser1.svg">
+                            </div>
+                            <p>"With the help of Myfuse, I was able to land my dream job as a software developer. The
+                                messaging feature allowed me to connect directly with HR representatives and clarify any
+                                doubts had, making the job application process so much easier."</p>
+                        </div>
+                        <div id="user2">
+                            <img src="user2img.svg">
+                            <div class="detail">
+                                <h3>Sneha Kumari</h3>
+                                <h5>Backend Developer</h3>
+                                    <img id="star" src="staruser2.svg">
+                            </div>
+                            <p>"As a fresher without much experience, job hunting was overwhelming. Myfuse offered me
+                                opportunities that matched my skill set and experience, making it easier for me to start
+                                my career in the field of marketing and others."</p>
+                        </div>
+                        <div id="user3">
+                            <img src="user3img.svg">
+                            <div class="detail">
+                                <h3>Rahul Paul</h3>
+                                <h5>UI/UX Designer</h3>
+                                    <img id="star" src="staruser3.svg">
+                            </div>
+                            <p>"Myfuse offered me a wide range of job opportunities across various industries. I was
+                                able to use the messaging feature to communicate with HR of companies directly, making
+                                the job application process seamless and hassle-free."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="active">
+                    <h3>2500+</h3>
+                    <p>Active Students</p>
+                </div>
+                <div class="active">
+                    <h3>3000+</h3>
+                    <p>Jobs</p>
+                </div>
+                <div class="active">
+                    <h3>5500+</h3>
+                    <p>Active Application</p>
+                </div>
+
+            </div>
+
         </div>
 
-    </div>
-    <footer>
-        <img src="foo.svg">
-    </footer>
+        <footer>
+            <div class="links">
+                <div id="socials">
+                    <img src="circle white full.png">
+                    <img id="logofoot" src="logo-removebg-preview.png">
+                    <p>Unlock endless career possibilities with Myfuse - the platform that bridges gap between Students
+                        and Job opportunities in India.</p>
+                    <img id="socialogo" src="socials.svg" height="40px" width="120px">
+                    <img id="circlebottom" src="circle half bottom.png">
+                </div>
+                <div class="useful">
+                    <h3>Useful Links</h3>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Login</p>
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="useful">
+                    <h3>Our Services</h3>
+                    <p>Application</p>
+                    <p>Legal Policy</p>
+                    <p>Systems</p>
+                    <p>About</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="useful">
+                    <h3>Contact Us</h3>
+                    <p>MyFuse.in Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</p>
+                    <p>Phone: +91 7975364977</p>
+                    <p>Email: contact@myfuse.in</p>
+                </div>
+            </div>
+            <div class="contain">
+                <div id="news">
+                    <h3>Join Our Newsletter:</h3>
+                    <input type="email" placeholder="abc123@gmail.com">
+                    <!-- <button>Subscribe</button> -->
+                </div>
+                <div id="copyright">
+                    <p>Copyright ©2024 MyFuse.In. All Rights Reserved</p>
+                    <p>Empowering digital experiences, managed and developed by Ashutosh Kumar</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
 </body>
+
 </html>
