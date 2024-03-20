@@ -1,11 +1,10 @@
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin:0px;
+    padding:0px;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 400; 
     font-style: normal;
 }
-
 .navbar {
     background-color: #001F3F;
     height: 80px;
@@ -14,22 +13,19 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.navbar-container {
+.navbar-container{
     display: flex;
     justify-content: space-between;
     width: 1500px;
     align-items: center;
 }
-
-.option {
+.option{
     display: flex;
     white-space: nowrap;
     align-items: center;
     float: right;
     gap: 30px;
 }
-
 #logo {
     background-color: #001F3F;
     width: 20%;
@@ -70,7 +66,7 @@ header a {
     font-family: "Lato", sans-serif;
 }
 
-header>div>img {
+header > div > img {
     background-color: #001F3F;
     height: 20px;
     width: 20px;
@@ -79,31 +75,28 @@ header>div>img {
 
 
 
-.banner {
+.banner{
     position: relative;
     width: 100%;
 }
-
-.banner #ban {
+.banner #ban{
     position: relative;
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:auto;
 }
-
-.banner #circle_overlay {
+.banner #circle_overlay{
     background-color: transparent;
-    position: absolute;
+    position:absolute;
     top: 0;
-    left: 0;
-    height: 200px;
+    left:0;
+    height:200px;
     width: 200px;
-    opacity: 0.4;
+    opacity:0.4;
 }
-
-button {
+button{
     position: absolute;
     font-weight: 550;
-    top: 475px;
+    top:  475px;
     left: 13.3%;
     background-color: #001F3F;
     color: white;
@@ -113,223 +106,196 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
-
-.banner .bento {
-    display: flex;
+.banner .bento{
+    display: flex; 
     position: absolute;
     top: 136px;
-    right: 8%;
-    z-index: 12;
-    width: 500px;
-    height: 500px;
+    right:8%;
+    z-index: 12;  
+    width:500px;
+    height:500px; 
     background-color: transparent;
 }
-
-.bento .bentosub1 {
+.bento .bentosub1{
     display: flex;
     flex-direction: column;
     height: 50%;
-    width: 50%;
-    gap: 20px;
+    width:50%;
+    gap:20px;
 }
 
-#resume {
-    position: relative;
-    height: 240px;
-    width: 240px;
+#resume{
+    height:240px;
+    width:240px;
     background-color: #FFE769;
-    color: black;
+    color:black;
     font-weight: 550;
-    border: 1px solid rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213);
     border-radius: 15px;
 }
-
-#resume p {
-    font-size: 20px;
+#resume p{
+    font-size:20px;
     background-color: transparent;
-    margin: 7px 0px 0px 10px;
+    margin:7px 0px 0px 10px;
 }
-
-#resume img {
-    background: none;
+#resume img{
+    background:none;
     height: 221px;
     width: 185px;
     overflow: hidden;
     margin: -8px 0px 0px 46px;
 }
-
-#mentorship {
-    height: 230px;
-    width: 230px;
+#mentorship{
+    height:230px;
+    width:230px;
     background-color: #91EBFF;
-    color: black;
+    color:black;
     font-weight: 550;
-    border: 1px solid rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213);
     border-radius: 15px;
 }
-
-#mentorship p {
-    font-size: 20px;
+#mentorship p{
+    font-size:20px;
     background-color: transparent;
-    margin: 7px 0px 0px 10px;
+    margin:7px 0px 0px 10px;
 }
-
-#mentorship img {
+#mentorship img{
     background-color: transparent;
     height: 221px;
     width: 185px;
     margin: 3px 0px 0px 44px;
 }
 
-.bento .bentosub2 {
+.bento .bentosub2{
     display: flex;
     flex-direction: column;
     height: 25%;
-    width: 50%;
-    gap: 20px;
+    width:50%;
+    gap:20px;
 }
-
-#jobs {
-    position: relative;
-    height: 130px;
-    width: 225px;
+#jobs{
+    position:relative;
+    height:130px;
+    width:225px;
     background-color: #FFC05B;
-    color: black;
+    color:black;
     font-weight: 550;
-    border: 1px solid rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213);
     border-radius: 15px;
 }
-
-#jobs p {
-    font-size: 20px;
+#jobs p{
+    font-size:20px;
     background-color: transparent;
-    margin: 7px 0px 0px 10px;
+    margin:7px 0px 0px 10px;
 }
-
-#jobs img {
+#jobs img{
     background-color: transparent;
     height: 131px;
     width: 264px;
-    margin: -23px 0px 0px 40px
+    margin: -23px 0px 0px 40px 
 }
-
-#assessment {
-    height: 130px;
-    width: 225px;
+#assessment{
+    height:130px;
+    width:225px;
     background-color: #91F261;
-    color: black;
+    color:black;
     font-weight: 550;
-    border: 1px solid rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213);
     border-radius: 15px;
 }
-
-#assessment p {
-    font-size: 20px;
+#assessment p{
+    font-size:20px;
     background-color: transparent;
-    margin: 7px 0px 0px 10px;
+    margin:7px 0px 0px 10px;
 }
-
-#assessment img {
+#assessment img{
     background-color: transparent;
     height: 218px;
     width: 107px;
     margin: -66px 0px 0px 123px;
 }
-
-#competition {
+#competition{
     height: 180px;
-    width: 225px;
+    width: 225px; 
     background-color: #E198FF;
-    color: black;
+    color:black;
     font-weight: 550;
-    border: 1px solid rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213);
     border-radius: 15px;
 }
-
-#competition p {
-    font-size: 20px;
+#competition p{
+    font-size:20px;
     background-color: transparent;
-    margin: 7px 0px 0px 10px;
+    margin:7px 0px 0px 10px;
 }
-
-#competition img {
+#competition img{
     background-color: transparent;
     height: 228px;
     width: 195px;
     margin: -38px 0px 0px 51px;
 }
-
-.main-body {
+.main-body{
     background-color: #F9F9F9;
 }
-
-.trust {
+.trust{
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 40px;
 }
-
-.trust h2 {
+.trust h2{
     font-family: "Merriweather", serif;
     text-align: center;
     font-weight: 700;
-    float: left;
-    font-size: 25px;
-    color: #001F3F;
+    float:left;
+    font-size:25px;
+    color:#001F3F;
     white-space: nowrap;
     margin-left: 20px;
 }
 
-.company {
+.company{
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    width:fit-content;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     align-items: center;
     background-color: white;
 }
-
 .company::-webkit-scrollbar {
     display: none;
 }
-
-.company img {
+.company img{
     height: 50%;
     width: 20%;
 }
 
-.trending {
+.trending{
     text-align: center;
-    margin-top: 100px;
+    margin-top:100px;
 }
-
-.trending h1 {
+.trending h1{
     font-family: "Merriweather", serif;
     font-weight: 700;
-    font-size: 40px;
-    color: #001F3F;
+    font-size:40px;
+    color:#001F3F;
 }
-
-.trending p {
+.trending p{
     opacity: 60%;
-    font-weight: 300;
+    font-weight:300;
     font-size: 20px;
     margin-top: 8px;
 }
-
-.text {
-    margin-bottom: 40px;
-    ;
+.text{
+    margin-bottom: 40px;;
 }
 
-.listing {
+.listing{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
-
 .swiper {
     width: 100%;
     height: 100%;
@@ -341,8 +307,8 @@ button {
     background: #fff;
     border-radius: 5px;
     display: flex;
-    height: 350px !important;
-    width: 350px !important;
+    height:350px !important;
+    width:350px !important;
     margin: 10px !important;
     justify-content: center;
     align-items: center;
@@ -354,127 +320,122 @@ button {
     height: 100%;
     object-fit: cover;
 }
-
-.box {
-    height: 100% !important;
-    width: 100% !important;
+.box{
+    height:100% !important;
+    width:100% !important;
     border: 1px solid gray;
     border-radius: 10px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     background-color: transparent;
-
+    
 }
-
-.box #microsoft {
-    height: 100%;
+.box #microsoft{
+    height:100%;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 10px;
 }
-
-.box h3 {
+.box h3{
     font-weight: 700;
     font-size: 20px;
-    margin-right: 56px;
-    margin-left: 21px;
+    margin-right:56px;
+    margin-left:21px;
     align-self: flex-start;
-    display: inline;
+    display:inline;
 }
-
-.box #bookmark {
+.box #bookmark{
     margin-top: -30px;
     display: inline;
     align-self: end;
     height: 34px;
     width: 53px;
 }
-
-.box #keywords {
-    font-size: 15px;
+.box #keywords{
+    font-size:15px;
     text-align: left;
-    margin-left: 20px;
+    margin-left:20px;
     margin-bottom: 15px;
 }
-
-.position {
+.position{
     display: flex;
     align-items: flex-start;
 }
-
-.position #location {
+.position #location{
     height: 15px;
     width: 15px;
-    float: inline-start;
+    float:inline-start;
     display: inline;
-    margin-left: 15px;
+    margin-left:15px;
 }
-
-.position #posi {
+.position #posi{
     display: inline;
-    font-size: 12px;
+    font-size:12px;
     margin-top: 24px;
     margin-left: 1px
 }
-
-.position #time {
+.position #time{
     margin-top: 9px;
     display: inline;
     float: inline-start;
     margin-left: 19px;
-    height: 20px;
-    width: 20px;
+    height:20px;
+    width:20px;
 }
-
-.box #arrow {
-    margin-top: -50px;
-    margin-right: 5px;
+.box #arrow{
+    margin-top:-50px;
+    margin-right:5px;
     display: inline;
     align-self: end;
     height: 40px;
     width: 40px;
 }
-
-.position #deadline {
+.position #deadline{
     margin-top: 10px;
     float: inline-start;
     font-size: 12px;
     margin-left: 8px;
 }
 
-.box #ae {
+.box #ae{
     border: 1px solid gray;
-    height: 40%;
+    height:40%;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 10px;
 }
 
-.box #tm {
+.box #tm{
     border: 1px solid gray;
-    height: 40%;
+    height:40%;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 10px;
 }
 
-.comp {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(255, 215, 0, 0.2);
+.comp{
+    width:100%;
+    height:100vh;
+    background-color: rgba(255,215,0,0.2);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.comp #coder {
+.comp1{
+    width:100%;
+    height:100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comp #coder{
     background-color: transparent;
     height: 50vh;
     border-radius: 10px 0px 0px 10px;
 }
-
-.comp-card {
+.comp-card{
     border: 1px solid rgba(0, 0, 0, 0.25);
     position: relative;
     display: flex;
@@ -483,19 +444,26 @@ button {
     margin-left: 50px;
     justify-content: center;
 }
-
-#overlay {
-    position: absolute;
+.comp1-card{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+}
+#overlay{
+    position:absolute;
     height: 200px;
     width: 100px;
     background-color: transparent;
-    margin-left: 0px;
+    margin-left:0px;
     opacity: 20%;
     top: 15%;
-    left: 30%;
+    left:30%; 
 }
-
-.heading {
+.heading{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -503,73 +471,63 @@ button {
     gap: 20px;
     justify-content: start;
 }
-
-.heading h2 {
+.heading h2{
     font-size: 30px;
     background-color: transparent;
-    color: #001F3F;
+    color:#001F3F;
     font-weight: 700;
-
+    
     margin: 0;
 }
-
-.heading p {
+.heading p{
     font-size: 20px;
     font-weight: 400;
     background-color: transparent;
 }
-
-.image {
+.image{
     display: flex;
     align-items: center;
     width: 500px;
     justify-content: space-between;
 }
-
-.image img {
+.image img{
     height: 37px;
     width: 38px;
 }
-
-.trophy {
+.trophy{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
-.online {
+.online{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
-#start {
+#start{
     background-color: rgba(0, 31, 63, 1);
     padding: 10px 30px;
     color: white;
     border-radius: 0.5rem;
 }
-
-.builder {
-    width: 100%;
-    height: 55vh;
-    margin-top: 35px;
+.builder{
+    width:100%;
+    height:55vh;
+    margin-top:35px;
     position: relative;
     display: flex;
     align-items: center;
-    border: 1px solid rgba(215, 215, 215, 0.5);
+    border: 1px solid rgba(215,215,215,0.5);
 }
-
-.builder img {
+.builder img{
     background-color: transparent;
-    width: 250px;
-    height: 250px;
-    margin-left: 100px;
+    width:250px;
+    height:250px;
+    margin-left:100px;
     position: relative;
     border-radius: 10px 0px 0px 10px;
 }
-
-.builder h2 {
+.builder h2{
     margin-top: -94px;
     color: #001F3F;
     margin-left: 33px;
@@ -577,62 +535,50 @@ button {
     background-color: transparent;
 }
 
-.builder p {
-    margin-left: -240px;
-}
-
-.builder button {
+.builder button{
     top: 200px;
     left: 25.5%;
 }
-
-.builder #over {
+.comp1-card #over{
     display: flex;
-    align-self: flex-end;
-    position: absolute;
-    height: 200px;
-    width: 100px;
-    background-color: transparent;
-    margin-left: 1310px;
-    opacity: 20%;
-    /* margin-top:-30px; */
+    position:absolute;
+    top: 10%;
+    right: 0;
+    height: 270px;
+    width: 120px;
+    opacity: 30%;
 }
 
-.feedback {
+.feedback{
     display: flex;
     flex-direction: row;
-    height: 300px;
-    width: 100%;
+    height: 55vh;
+    width:100%;
 }
-
-.testimonial .text {
+.testimonial .text{
     margin-top: 100px;
 }
-
-.testimonial .text p {
+.testimonial .text p{
     margin-bottom: 50px;
 }
-
-#user1 {
+#user1{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    height: 100%;
-    width: 25%;
-    border: 1px solid rgba(215, 215, 215, 0.5);
+    height:100%;
+    width:25%;
+    border: 1px solid rgba(215,215,215,0.5);
     border-radius: 10px;
-    background-color: rgba(255, 215, 0, 0.2);
+    background-color: rgba(255,215,0,0.2);
     margin: 0px 55px 0px 40px;
 }
-
-#user1 img {
+#user1 img{
     background-color: transparent;
-    height: 80px;
-    width: 80px;
-    margin: 20px 20px 0px 20px;
+    height:80px;
+    width:80px;
+    margin:20px 20px 0px 20px;
 }
-
-#user1 .detail {
+#user1 .detail{
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -641,58 +587,52 @@ button {
     margin-bottom: 0px;
     align-items: flex-start;
 }
-
-#user1 p {
-    font-size: 18px;
+#user1 p{
+    font-size:18px;
     font-weight: 400;
     padding: 0px 20px 0px 20px;
     background-color: transparent;
     line-height: 27px;
     color: rgba(0, 0, 0, 1);
 }
-
-.detail h3 {
+.detail h3{
     font-size: 30px;
     font-weight: bold;
     background-color: transparent;
     margin-bottom: 5px;
 }
-
-.detail h5 {
+.detail h5{
     font-weight: 400;
-    margin-top: 0px;
-    font-size: 20px;
+    margin-top:0px;
+    font-size:20px;
     background-color: transparent;
     margin-bottom: 5px;
 }
-
-.detail #star {
+.detail #star{
     height: 100%;
-    width: 170px;
-    margin: -5px;
+    width:170px;
+    margin:-5px;
 }
 
-#user2 {
+#user2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 25%;
-    border: 1px solid rgba(215, 215, 215, 0.5);
+    height:100%;
+    width:25%;
+    border: 1px solid rgba(215,215,215,0.5);
     border-radius: 10px;
-    background-color: rgba(255, 215, 0, 0.2);
-    margin: 0px 60px 0px 60px;
+    background-color: rgba(255,215,0,0.2);
+    margin:0px 60px 0px 60px;
 }
-
-#user2 img {
+#user2 img{
     background-color: transparent;
-    height: 80px;
-    width: 80px;
-    margin: 20px 20px 0px 20px;
+    height:80px;
+    width:80px;
+    margin:20px 20px 0px 20px;
     align-self: flex-start;
 }
-
-#user2 .detail {
+#user2 .detail{
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -701,9 +641,8 @@ button {
     margin-bottom: 0px;
     align-items: flex-start;
 }
-
-#user2 p {
-    font-size: 18px;
+#user2 p{
+    font-size:18px;
     font-weight: 400;
     padding: 0px 20px 0px 20px;
     background-color: transparent;
@@ -711,26 +650,24 @@ button {
     color: rgba(0, 0, 0, 1);
 }
 
-#user3 {
+#user3{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 25%;
-    border: 1px solid rgba(215, 215, 215, 0.5);
+    height:100%;
+    width:25%;
+    border: 1px solid rgba(215,215,215,0.5);
     border-radius: 10px;
-    background-color: rgba(255, 215, 0, 0.2);
-    margin: 0px 40px 0px 55px;
+    background-color: rgba(255,215,0,0.2);
+    margin:0px 40px 0px 55px;
 }
-
-#user3 img {
+#user3 img{
     background-color: transparent;
-    height: 80px;
-    width: 80px;
-    margin: 20px 20px 0px 20px;
+    height:80px;
+    width:80px;
+    margin:20px 20px 0px 20px;
     align-self: flex-start;
 }
-
-#user3 .detail {
+#user3 .detail{
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -739,9 +676,8 @@ button {
     margin-bottom: 0px;
     align-items: flex-start;
 }
-
-#user3 p {
-    font-size: 18px;
+#user3 p{
+    font-size:18px;
     font-weight: 400;
     padding: 0px 20px 0px 20px;
     background-color: transparent;
@@ -749,129 +685,162 @@ button {
     color: rgba(0, 0, 0, 1);
 }
 
-.stats {
+.stats{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     color: #001F3F;
-    border: 1px solid rgba(215, 215, 215, 0.5);
-    width: 70%;
-    height: 90px;
-    margin: 80px 295px 80px 295px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
-
-.stats h3 {
+.stats-child{
+    display: flex;
+    border:1px solid rgba(139, 135, 135, 0.404);
+    height:90px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.stats h3{
     font-family: "Merriweather", serif;
     font-weight: 700;
-    font-size: 30px;
-    color: #001F3F;
+    font-size:30px;
+    color:#001F3F;
 }
-
-.active {
+.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 80px 0px 80px;
+    margin:0px 80px 0px 80px;
 }
 
-.links {
+.links{
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    position: absolute;
-    width: 100%;
+    position:absolute;
+    width:100%;
     background-color: rgba(0, 31, 63, 0.9);
 }
-
-footer p {
+.footer{
+    height: 800px;
+}
+footer p{
     text-align: center;
     /* margin-top:100px; */
     background-color: transparent;
     font-weight: 350;
-    font-size: 14px;
+    font-size:14px;
     color: white;
     display: block;
 }
-
-.useful {
+.useful-div{
+    display: flex;
+}
+.parent-footer{
+    display: flex;
+    flex-direction: column;
+}
+.useful{
     /* height:auto; */
     width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items:start;
     /* z-index: 10; */
-    margin-left: 47px;
+    margin-left:47px;
     margin-right: 20px;
-    margin-top: 0px;
-    flex-grow: 3;
+    margin-top:0px;
+    flex-grow:3;
     text-align: left;
     background-color: transparent;
 }
-
-.useful h3 {
-    color: #FFC100;
+.useful h3{
+    color:#FFC100;
     font-size: 22px;
     margin-bottom: 10px;
     background-color: transparent;
     margin-top: 20px;
 }
-
-.useful p {
+.useful p{
     font-weight: 400;
     line-height: 40px;
-    width: 100%;
+    width:100%;
     color: white;
     background-color: transparent;
 }
 
-#socials {
+#socials{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #001F3F;
 }
-
-#socials img {
+#socials img{
     background-color: transparent;
-    height: 50%;
-    width: 30%;
+    height:50%;
+    width:30%;
     align-self: flex-start;
 }
-
-#socials #circlebottom {
-    margin-left: 70%;
-    width: 55%;
-    height: 50%;
+#socials #circlebottom{
+    width:55%;
+    height:50%;
 }
-
-#socials #logofoot {
+#socials #logofoot{
     height: 40%;
-    width: 60%;
+    width:60%;
     margin-top: 20px;
     align-self: center;
 }
 
-#socials p {
+#socials p{
     background-color: transparent;
     color: #fff;
     font-size: 14px;
     margin: 10px 10px 40px 10px;
 }
-
-#socials #socialogo {
+#socials #socialogo{
     background-color: transparent;
     height: 30%;
-    width: 40%;
+    width:40%;
     align-self: center;
 }
-
-#news {
+#news{
     display: flex;
     flex-direction: row;
     color: white;
+    justify-content: center;
+    align-items: center;
+}
+#news h3{
+    color:#FFC100;
+    padding: 30px;
+    white-space: nowrap;
+}
+.subscribe{
+    background-color: #FFC100;
+    height: 30px;
+    color: black;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+.input-button{
+    display: flex;
+    align-items: center;
+    
+}
+#news input{
+    width: 300px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
 }
 
-.contain {
+.contain{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
